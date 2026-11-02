@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Numerical Analysis Studios</title>
+<style>
+  :root {
+    --navy: #13294B;
+    --carolina: #4B9CD3;
+    --carolina-dark: #2f7cb0;
+    --text: #222;
+    --muted: #5a6472;
+    --rule: #e3e7ec;
+    --card: #ffffff;
+    --bg: #f6f8fa;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.55;
+    color: var(--text);
+    background: var(--bg);
+  }
+  header {
+    background: var(--navy);
+    color: #fff;
+    padding: 2.5rem 1rem 2rem;
+  }
+  header .inner, main { max-width: 900px; margin: 0 auto; }
+  header h1 { margin: 0 0 .4rem; font-size: 2rem; font-weight: 600; }
+  header p { margin: 0; color: #c9d6e6; font-size: 1.05rem; }
+  main { padding: 2rem 1rem 3rem; }
+  .intro { color: var(--muted); margin: 0 0 2rem; }
+  .studio {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-left: 5px solid var(--carolina);
+    border-radius: 6px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+  .studio h2 { margin: 0 0 .25rem; font-size: 1.3rem; color: var(--navy); }
+  .studio .num {
+    display: inline-block;
+    font-size: .8rem;
+    font-weight: 600;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: var(--carolina-dark);
+    margin-bottom: .25rem;
+  }
+  .studio ul { margin: .75rem 0 1rem 1.2rem; padding: 0; }
+  .studio li { margin: .25rem 0; }
+  .links a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: .95rem;
+    font-weight: 500;
+    color: #fff;
+    background: var(--carolina);
+    padding: .4rem .9rem;
+    border-radius: 4px;
+    margin-right: .5rem;
+    margin-top: .25rem;
+  }
+  .links a:hover { background: var(--carolina-dark); }
+  .links a.secondary {
+    background: transparent;
+    color: var(--carolina-dark);
+    border: 1px solid var(--carolina);
+  }
+  .links a.secondary:hover { background: #eaf4fb; }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: .85rem;
+    padding: 1.5rem 1rem 2.5rem;
+  }
+  footer a { color: var(--carolina-dark); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <h1>Numerical Analysis Studios</h1>
+    <p>Hands-on Jupyter notebooks for PHYS XXX &mdash; Numerical Methods in Physics</p>
+  </div>
+</header>
+
+<main>
+
+  <p class="intro">
+    <!-- Intro paragraph: what the studios are, how they are used in class, prerequisites, etc. -->
+    Intro text goes here.
+  </p>
+
+  <!-- ===================== Studio 1 ===================== -->
+  <section class="studio" id="studio1">
+    <span class="num">Studio 1</span>
+    <h2>Introduction to NumPy and Plotting</h2>
+    <ul>
+      <li>Bullet point</li>
+      <li>Bullet point</li>
+      <li>Bullet point</li>
+    </ul>
+    <div class="links">
+      <a href="Studio1_IntroToNumPyandPlotting.ipynb">Download notebook</a>
+      <a class="secondary" href="solutions/Studio1Solutions.html">Solutions</a>
+    </div>
+  </section>
+
+  <!-- ===================== Studio 2 ===================== -->
+  <section class="studio" id="studio2">
+    <span class="num">Studio 2</span>
+    <h2>Random Numbers and Integration</h2>
+    <ul>
+      <li>Bullet point</li>
+      <li>Bullet point</li>
+      <li>Bullet point</li>
+    </ul>
+    <div class="links">
+      <a href="Studio2_RandomNumbersAndIntegration.ipynb">Download notebook</a>
+      <a class="secondary" href="solutions/Studio2Solutions.html">Solutions</a>
+    </div>
+  </section>
+
+  <!-- ===================== Studio 3 ===================== -->
+  <section class="studio" id="studio3">
+    <span class="num">Studio 3</span>
+    <h2>Root Finding in 1D with SciPy</h2>
+    <ul>
+      <li>Bullet point</li>
+      <li>Bullet point</li>
+      <li>Bullet point</li>
+    </ul>
+    <div class="links">
+      <a href="Studio3_RootFindingWithSciPy.ipynb">Download notebook</a>
+      <a class="secondary" href="solutions/Studio3Solutions.html">Solutions</a>
+    </div>
+  </section>
+
+  <!-- ===================== Studio 4 ===================== -->
+  <section class="studio" id="studio4">
+    <span class="num">Studio 4</span>
+    <h2>Complex Root Finding and Fractals</h2>
+    <ul>
+      <li>Bullet point</li>
+      <li>Bullet point</li>
+      <li>Bullet point</li>
+    </ul>
+    <div class="links">
+      <a href="Studio4_ComplexRootFindingAndFractals.ipynb">Download notebook</a>
+      <a class="secondary" href="solutions/Studio4Solutions.html">Solutions</a>
+    </div>
+  </section>
+
+  <!-- ===================== Studio 5 ===================== -->
+  <section class="studio" id="studio5">
+    <span class="num">Studio 5</span>
+    <h2>Vector-Matrix Operations and Decompositions in NumPy</h2>
+    <ul>
+      <li>Bullet point</li>
+      <li>Bullet point</li>
+      <li>Bullet point</li>
+    </ul>
+    <div class="links">
+      <a href="Studio5_NumPyVectorsAndMatricies.ipynb">Download notebook</a>
+      <a class="secondary" href="solutions/Studio5Solutions.html">Solutions</a>
+    </div>
+  </section>
+
+  <!-- ===================== Studio 7 ===================== -->
+  <section class="studio" id="studio7">
+    <span class="num">Studio 7</span>
+    <h2>The Fast Fourier Transform and LIGO Data Analysis</h2>
+    <ul>
+      <li>Bullet point</li>
+      <li>Bullet point</li>
+      <li>Bullet point</li>
+    </ul>
+    <div class="links">
+      <a href="Studio7_FFTandLIGO.ipynb">Download notebook</a>
+      <a class="secondary" href="Studio7_FFTandLIGO.zip">Notebook + GW150914 data (zip)</a>
+      <a class="secondary" href="solutions/Studio7Solutions.html">Solutions</a>
+    </div>
+  </section>
+
+  <!-- ===================== Studio 8 ===================== -->
+  <section class="studio" id="studio8">
+    <span class="num">Studio 8</span>
+    <h2>ODEs and the Three-Body Problem</h2>
+    <ul>
+      <li>Bullet point</li>
+      <li>Bullet point</li>
+      <li>Bullet point</li>
+    </ul>
+    <div class="links">
+      <a href="Studio8_ODEsAndTheThreeBodyProblem.ipynb">Download notebook</a>
+      <a class="secondary" href="solutions/Studio8Solutions.html">Solutions</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  Carl Rodriguez &middot; <a href="https://dynamics.unc.edu">dynamics.unc.edu</a>
+</footer>
+
+</body>
+</html>
